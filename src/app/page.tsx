@@ -1,14 +1,12 @@
 import React from 'react'
 import WhyWe from '@/components/WhyWe'
 import Footer from '@/components/Footer'
-import { MdAutoGraph } from "react-icons/md";
+import Wrapper from '@/components/Wrapper'
 import { IoIosArrowRoundUp } from "react-icons/io";
-import { TiSpiral } from "react-icons/ti";
-import { PiFlowArrowLight } from "react-icons/pi";
 const page = () => {
   return (
-    <div className='w-full relative flex overflow-hidden items-center flex-col justify-center px-2'>
-      <div className="sm:w-[90%] w-full ">
+    <div className='w-full relative flex overflow-hidden items-center flex-col justify-center '>
+      <div className="sm:w-[90%] w-full px-2 ">
         <div className="w-full py-4 flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
             <img src="/logo.svg" className='h-9' alt="" />
@@ -41,6 +39,7 @@ const page = () => {
         </div>
         <WhyWe />
       </div>
+      <Wrapper />
       <Footer />
     </div >
   )
