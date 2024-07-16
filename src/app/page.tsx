@@ -34,7 +34,7 @@ const page = () => {
                 <h1 className='font-extralight text-5xl uppercase text-center z-10'>Streamlined and Excelent</h1>
                 <h1 className='font-extralight text-4xl uppercase text-center z-10'>Outsourcing Solution</h1>
               </div>
-              <p className='text-center tracking-wide mt-4'>Streamline your operations with our straightforward outsourcing solutions, designed to enhance <br /> efficiency and reduce overhead costs.</p>
+              <p className='text-center tracking-wide mt-4'>Streamline your operations with our straightforward outsourcing solutions, designed to enhance <br className='md:block hidden' /> efficiency and reduce overhead costs.</p>
               <button className='uppercase mt-4 border py-[0.5rem] px-7 bg-[#2d0080] text-white rounded-lg'>Get Started</button>
             </div>
           </div>
