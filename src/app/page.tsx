@@ -26,7 +26,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="w-full relative sm:h-[70vh] h-screen flex items-center justify-between">
+        <div className="w-full relative sm:h-[70vh] h-[80vh] flex items-center justify-between">
           <div className="flex flex-col w-full items-center gap-3">
             <div className=" relative w-full flex flex-col items-center gap-3">
               <div className="flex flex-col gap-4 mt-2">
