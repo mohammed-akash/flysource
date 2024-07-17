@@ -2,7 +2,7 @@ import React from 'react'
 import { sections } from '@/data'
 const WhyWe = () => {
     return (
-        <div className='w-full flex relative items-center justify-center flex-col'>
+        <div className='w-full flex relative items-center justify-center flex-col my-10'>
             <h2 className='w-full text-center sm:text-xl text-sm'>OUR PERKS & BENEFITS</h2>
             <div style={{
                 position: 'absolute',

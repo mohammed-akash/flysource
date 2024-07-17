@@ -65,4 +65,43 @@ export const socialMedia = [
     }
 ];
 
+export const faq = [
+    {
+        "id": "1",
+        "question": "What services do you offer?",
+        "answer": "We offer a range of services including global shipping, customs clearance, real-time tracking, secure handling, flexible solutions, and 24/7 customer support."
+    },
+    {
+        "id": "2",
+        "question": "How can I track my shipment?",
+        "answer": "You can track your shipment in real-time using our tracking system. Simply enter your tracking number on our website to get the latest status updates."
+    },
+    {
+        "id": "3",
+        "question": "What are your customer support hours?",
+        "answer": "Our customer support team is available 24/7 to assist you with any inquiries or issues you may have."
+    },
+    {
+        "id": "4",
+        "question": "How do you ensure the safety of my products?",
+        "answer": "We prioritize the safety of your products with secure handling and storage throughout the transportation process. Our team is trained to handle your shipments with the utmost care."
+    },
+    {
+        "id": "5",
+        "question": "What areas do you serve?",
+        "answer": "We offer our services globally, ensuring your products can be transported to and from any country with ease."
+    },
+    {
+        "id": "6",
+        "question": "How can I get a quote for your services?",
+        "answer": "You can request a quote by contacting our customer support team or by filling out the quote request form on our website. We will get back to you with a customized quote based on your requirements."
+    },
+    {
+        "id": "7",
+        "question": "What is your policy on customs clearance?",
+        "answer": "Our team has extensive expertise in customs clearance to ensure your shipments comply with all regulations, avoiding delays and additional costs. We handle all necessary paperwork and communication with customs authorities."
+    }
+]
+
+
 

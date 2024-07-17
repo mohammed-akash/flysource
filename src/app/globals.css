@@ -200,11 +200,3 @@ input[type=number] {
 .traingle {
     clip-path: polygon(53% 0, 0% 100%, 100% 100%);
 }
-
-
-.parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
