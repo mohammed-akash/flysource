@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import type { Metadata } from 'next'
 import { ToastContainer } from 'react-toastify'
 export const metadata: Metadata = {
-  title: 'FlySource',
+  title: 'FastSourcer',
   icons: '/logo.svg',
   description: 'We Provide the best OutSourcing Services straight from Chine',
 }

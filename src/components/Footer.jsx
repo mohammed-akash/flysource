@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="flex items-center sm:flex-row flex-col gap-2">
                     <img src="/logo.svg" className='h-12' alt="" />
                     <div className="flex flex-col sm:items-start items-center">
-                        <h1 className='text-[1.3rem] text-[#4a4a4a] font-light tracking-wider uppercase'>FlySource</h1>
+                        <h1 className='text-[1.3rem] text-[#4a4a4a] font-light tracking-wider uppercase'>FastSource</h1>
                         <p className='text-xs text-[#636363]'>Extending the Edge of the OutSourcing Industry</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <h1 className='text-xs text-[#4a4a4a] my-4 font-light tracking-wider text-center uppercase'>Copyright © 2024 FLYSOURCE. <br /> All rights reserved.</h1>
+            <h1 className='text-xs text-[#4a4a4a] my-4 font-light tracking-wider text-center uppercase'>Copyright © 2024 FASTSOURCER. <br /> All rights reserved.</h1>
         </div>
     )
 }

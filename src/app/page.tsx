@@ -14,8 +14,8 @@ const page = () => {
       <div className="sm:w-[90%] w-full px-2 ">
         <div className="w-full py-4 flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
-            <img src="/logo.svg" className='h-9' alt="" />
-            <h1 className='text-xl font-light tracking-wider uppercase'>FlySource</h1>
+            <img src="/site-logo.png" className='h-9' alt="" />
+            <h1 className='text-xl font-light tracking-wider uppercase'>FastSourcer</h1>
           </div>
           <div className="flex items-center gap-4">
             <div className='text-sm flex items-center cursor-pointer justify-center gap-2  font-light tracking-wider w-32 py-[0.3rem] border-[#2d0080a1] text-[#616161] border rounded-full'>
