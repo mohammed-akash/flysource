@@ -5,8 +5,8 @@ import type { Metadata } from 'next'
 import Wrapper from '@/components/Layout/Wrapper'
 import { ToastContainer } from 'react-toastify'
 export const metadata: Metadata = {
-  title: 'FastSourcer',
-  icons: '/logo.svg',
+  title: 'Best Sourcing Company - FastSourcer',
+  icons: '/site-logo.svg',
   description: 'We Provide the best OutSourcing Services straight from Chine',
 }
 

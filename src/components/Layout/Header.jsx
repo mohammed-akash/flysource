@@ -137,11 +137,11 @@ const Header = () => {
                             <MdOutlineKeyboardArrowDown className='text-lg' />
                         </div>
                     </div>
-                    <div className='md:flex hidden text-sm items-center cursor-pointer justify-center gap-2  font-light tracking-wider w-32 py-[0.3rem] border-[#2d0080a1] text-[#616161] border rounded-full'>
-                        <h2>
+                    <div className='md:flex hidden text-sm items-center cursor-pointer justify-center gap-2  font-light tracking-wider w-32 py-[0.3rem] border-[#3f3fc2] text-[#616161] border rounded-full'>
+                        <h2 className='text-[#3f3fc2]'>
                             Contact
                         </h2>
-                        <div className=" rotate-45 border h-8 w-8 flex  items-center justify-center rounded-full bg-[#2d0080a1] text-white">
+                        <div className=" rotate-45 border h-8 w-8 flex  items-center justify-center rounded-full bg-[#3f3fc2] text-white">
                             <IoIosArrowRoundUp size='1.3rem' />
                         </div>
                     </div>

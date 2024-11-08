@@ -1,9 +1,17 @@
+'use client'
 import React from 'react'
-import { sections } from '@/data'
+import { FaGlobeEurope } from "react-icons/fa";
+import ServiceHighLight from '@/components/Common/ServiceHighLight';
+import { FaPersonShelter } from "react-icons/fa6";
+import { GiPathDistance } from "react-icons/gi";
+import { PiHandCoins } from "react-icons/pi";
+import { AiOutlineLike } from "react-icons/ai";
+import { RiCustomerService2Fill } from "react-icons/ri";
 const WhyWe = () => {
+
     return (
         <div className='w-full flex relative items-center justify-center flex-col sm:mb-10 mb-5 sm:mt-20 mt-10'>
-            <h2 className='w-full text-center sm:text-xl text-sm  bg-gradient-to-r from-red-500 to-red-600 text-transparent bg-clip-text'>OUR PERKS & BENEFITS</h2>
+            <h2 className='w-full md:text-start text-center sm:text-4xl text-sm text-[#3f3fc2] bg-clip-text'>OUR PERKS & BENEFITS</h2>
             <div style={{
                 position: 'absolute',
                 top: 0,
@@ -25,16 +33,15 @@ const WhyWe = () => {
                 filter: 'blur(90px)'
             }} />
 
-            <p className='text-center md:w-[80%] lg:w-[60%] w-full sm:text-3xl font-light text-2xl mt-5 text-[#313030]'>We believe in cultivating a Stong Connection with our Customer. So we Offer</p>
+            <p className='md:text-start text-center w-full sm:text-2xl font-light text-2xl mt-5 text-[#313030]'>We believe in cultivating a Stong Connection with our Customer. So we Offer</p>
             <div className="w-full mt-10 ">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:p-4 p-2">
-                    {sections.map((section, index) => (
-                        <div key={index} className="p-6 rounded-lg flex items-center justify-center flex-col">
-                            <img src={section.iconImage} alt={section.title} className="w-16 h-16 mb-4" />
-                            <h3 className="text-2xl text-[#1d1c1c] text-center font-[500] mb-2">{section.title}</h3>
-                            <p className="text-[#3c4b62] text-center">{section.description}</p>
-                        </div>
-                    ))}
+                    <ServiceHighLight Icon={FaGlobeEurope} title={'Efficient Global Shipping'} desc={'We provide efficient and reliable global shipping solutions to ensure your products reach their destination on time.'} />
+                    <ServiceHighLight Icon={FaPersonShelter} title={'Customs Clearance'} desc={'Our expertise in customs clearance ensures that your shipments comply with all regulations, avoIDing delays and additional costs.'} />
+                    <ServiceHighLight Icon={GiPathDistance} title={'Real-Time Tracking'} desc={'Stay informed with our real-time tracking system, provIDing you with up-to-date information on the status of your shipments.'} />
+                    <ServiceHighLight Icon={PiHandCoins} title={'Secure Handling'} desc={'We prioritize the safety of your products with secure handling and storage throughout the transportation process.'} />
+                    <ServiceHighLight Icon={AiOutlineLike} title={'Flexible Solutions'} desc={'Our flexible shipping solutions are tailored to meet your unique business needs, ensuring the best possible service.'} />
+                    <ServiceHighLight Icon={RiCustomerService2Fill} title={'Customer Support'} desc={'Our dedicated customer support team is available 24/7 to assist you with any inquiries or issues that may arise.'} />
                 </div>
             </div>
         </div>
