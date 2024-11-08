@@ -2,6 +2,7 @@ import MyReduxProvider from '@/Redux/Provider'
 import './globals.css'
 import "react-toastify/dist/ReactToastify.css";
 import type { Metadata } from 'next'
+import Wrapper from '@/components/Layout/Wrapper'
 import { ToastContainer } from 'react-toastify'
 export const metadata: Metadata = {
   title: 'FastSourcer',
@@ -19,7 +20,9 @@ export default function RootLayout({
       <MyReduxProvider>
         <body className='w-full'>
           <ToastContainer />
-          {children}
+          <Wrapper>
+            {children}
+          </Wrapper>
         </body>
       </MyReduxProvider>
     </html>

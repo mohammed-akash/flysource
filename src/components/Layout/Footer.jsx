@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='w-full flex items-center flex-col justify-center mt-10'>
             <div className="w-[90%] flex sm:flex-row flex-col py-6 gap-5 sm:justify-between justify-center items-center  border-t">
                 <div className="flex items-center sm:flex-row flex-col gap-2">
-                    <img src="/logo.svg" className='h-12' alt="" />
+                    <img src="/site-logo.png" className='h-12' alt="" />
                     <div className="flex flex-col sm:items-start items-center">
                         <h1 className='text-[1.3rem] text-[#4a4a4a] font-light tracking-wider uppercase'>FastSource</h1>
                         <p className='text-xs text-[#636363]'>Extending the Edge of the OutSourcing Industry</p>
