@@ -1,10 +1,7 @@
 'use client'
 import React from 'react'
 import WhyWe from '@/components/Home/WhyWe'
-import Faq from '@/components/Home/Faq'
-import { faq } from '@/data';
 import Landing from '@/components/Home/Landing';
-
 import TrustedBy from '@/components/Home/TrustedBy'
 const page = () => {
     return (
@@ -75,16 +72,7 @@ const page = () => {
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundImage: 'url("https://res.cloudinary.com/dn83xtspp/image/upload/fl_preserve_transparency/v1721190498/truck_qnrbal.jpg?_s=public-apps")',
-            }} />
-            <div className='w-full relative flex overflow-hidden my-10 items-center flex-col justify-center '>
-                <div className="sm:w-[80%] w-full px-2 ">
-                    {
-                        (faq ?? []).map((item, index) => (
-                            <Faq key={item.id} title={item.question} index={index} value={item.answer} />
-                        ))
-                    }
-                </div>
-            </div>
+            }} /> 
         </div>
     )
 }
