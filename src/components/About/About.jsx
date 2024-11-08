@@ -49,7 +49,7 @@ const About = () => {
                     <h2 className='w-full text-4xl md:text-start text-center'>Creating A Global Impact</h2>
                     <h3 className='w-full text-xl mt-3 md:text-start text-center'>Through direct sourcing from emerging countries</h3>
                     <p className=' font-light mt-4 text-lg md:text-start text-center'>
-                        Fast Sourcer delivers long-term cost savings, improved quality, and reliable service. Whether you're looking to source competitively from emerging markets for export, support local operations with a global sourcing agent, or gather global procurement intelligence to make informed decisions, Fast Sourcer is your trusted partner in streamlined, efficient sourcing.
+                        Fast Sourcer delivers long-term cost savings, improved quality, and reliable service. Whether you&apos;re looking to source competitively from emerging markets for export, support local operations with a global sourcing agent, or gather global procurement intelligence to make informed decisions, Fast Sourcer is your trusted partner in streamlined, efficient sourcing.
                     </p>
                     <div className='flex mt-4 text-sm items-center cursor-pointer justify-center gap-2  font-light tracking-wider w-40 py-[0.3rem] border-[#3f3fc2] text-[#616161] border rounded-full'>
                         <h2 className='text-[#3f3fc2]'>
