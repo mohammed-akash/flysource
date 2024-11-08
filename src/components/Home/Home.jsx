@@ -5,7 +5,7 @@ import { faq } from '@/data';
 import Landing from '@/components/Home/Landing'
 const page = () => {
     return (
-        <>
+        <div className='w-full flex items-center justify-center flex-col'>
             <div className="w-full md:px-4 px-2 ">
                 <Landing />
                 <div className='w-full flex md:my-10 my-5 rounded-md bg-purple-900 py-4 sm:h-[60vh] h-[40vh] relative items-center justify-center flex-col'>
@@ -29,7 +29,7 @@ const page = () => {
                     }
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
