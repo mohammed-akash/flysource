@@ -3,7 +3,7 @@ import { sections } from '@/data'
 const WhyWe = () => {
     return (
         <div className='w-full flex relative items-center justify-center flex-col sm:mb-10 mb-5 sm:mt-20 mt-10'>
-            <h2 className='w-full text-center sm:text-xl text-sm'>OUR PERKS & BENEFITS</h2>
+            <h2 className='w-full text-center sm:text-xl text-sm  bg-gradient-to-r from-red-500 to-red-600 text-transparent bg-clip-text'>OUR PERKS & BENEFITS</h2>
             <div style={{
                 position: 'absolute',
                 top: 0,
@@ -32,7 +32,7 @@ const WhyWe = () => {
                         <div key={index} className="p-6 rounded-lg flex items-center justify-center flex-col">
                             <img src={section.iconImage} alt={section.title} className="w-16 h-16 mb-4" />
                             <h3 className="text-2xl text-[#1d1c1c] text-center font-[500] mb-2">{section.title}</h3>
-                            <p className="text-[#313030] text-center">{section.description}</p>
+                            <p className="text-[#3c4b62] text-center">{section.description}</p>
                         </div>
                     ))}
                 </div>
