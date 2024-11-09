@@ -1,6 +1,6 @@
 import { connect } from "@/dbConfig/dbConfig";
 import User from "@/models/userModel";
-import commonHelper from '@/ServerHelpers/commonHelper'
+import commonHelper from "@/ServerHelper/commonHelper";
 import { NextRequest, NextResponse } from "next/server";
 connect()
 export async function POST(request: NextRequest) {
