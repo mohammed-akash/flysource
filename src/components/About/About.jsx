@@ -43,7 +43,7 @@ const About = () => {
             <div className="w-full relative flex items-center justify-center mt-28 lg:gap-12 gap-6 lg:flex-row flex-col">
                 <div className="bg-[#80710083] blur-[90px] h-[6rem] w-[4rem] lg:h-[16rem] lg:w-[8rem] absolute top-[-10%] z-[-1] left-[50%]" />
                 <div className="lg:w-1/2 w-full">
-                    <iframe className='rounded-lg lg:h-[360px] md:h-[300px] h-[220px] w-full' src="https://www.youtube.com/embed/aNLuurii-Jo" title="Dragon Sourcing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe className='rounded-lg lg:h-[360px] md:h-[300px] h-[220px] w-full' src="https://www.youtube.com/embed/aNLuurii-Jo" title="Dragon Sourcing" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
                 <div className="lg:w-1/2 w-full flex md:items-start items-center flex-col md:mt-0 mt-4">
                     <h2 className='w-full text-4xl md:text-start text-center'>Creating A Global Impact</h2>

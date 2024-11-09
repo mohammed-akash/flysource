@@ -4,7 +4,8 @@ import Link from 'next/link'
 import { IoIosArrowRoundUp } from 'react-icons/io'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import { RiMenu3Fill } from "react-icons/ri";
-
+import BlogModal from './BlogModal'
+import ServiceModal from './ServiceModal'
 const Header = () => {
     const menuRef = useRef();
     const [isHovered, setIsHovered] = useState(false);
@@ -83,15 +84,13 @@ const Header = () => {
         <div className="w-full md:py-4 py-2 flex items-center justify-between gap-2 relative">
             {isHovered && hoveredLink && (
                 <div
-                    className="w-full bg-white top-20 border absolute h-[40vh] flex items-start gap-2 z-[999] shadow"
+                    className="w-full bg-white top-20 border absolute md:min-h-[40vh] flex items-center gap-2 z-[999] shadow p-8 rounded"
                     onMouseLeave={handleMouseLeave}
                 >
-                    <Link href={'/'}>
-                        <img src="/logo.svg" className='h-20' alt="Logo" />
-                    </Link>
-                    <div className="text-lg">
-                        {hoveredLink === 'services' && <p>Our Services: Details...</p>}
-                        {hoveredLink === 'blogs' && <p>Latest Blog Posts: Details...</p>}
+                    <div className='w-full'>
+                        {hoveredLink === 'blogs' ? <BlogModal /> : ''}
+                        {hoveredLink === 'offerings' ? <ServiceModal /> : ''}
+                        {hoveredLink === 'resources' ? <div className='flex items-center justify-center'>This Resource will be added Soon</div> : ''}
                     </div>
                 </div>
             )}
@@ -121,11 +120,11 @@ const Header = () => {
                         onTouchStart={handleTouchStart}
                         onTouchMove={handleTouchMove}
                         onTouchEnd={handleTouchEnd}
-                        className={`flex md:items-center items-start text-base tracking-wide md:flex-row flex-col md:shadow-none ${showMenu ? 'absolute top-12 right-9' : ''}  md:top-auto md:right-auto  shadow md:border-none border md:z-auto z-[9999] bg-white`}>
+                        className={`flex md:items-center items-start text-base tracking-wide md:flex-row flex-col md:shadow-none ${showMenu ? 'absolute top-12 right-9' : ''}  md:top-auto md:right-auto  shadow md:border-none border md:z-auto z-[9999]`}>
                         <Link className='text-[0.9rem] py-[5px] md:px-[16px] px-[8px]' href={'/'}>Home</Link>
                         <Link className='text-[0.9rem] py-[5px] md:px-[16px] px-[8px]' href={'/about'}>About</Link>
-                        <div onClick={() => handleMouseEnter('services')} className={`md:w-auto w-full flex items-center md:justify-center justify-between cursor-pointer gap-1 py-[5px] md:px-[16px] px-[8px] rounded ${hoveredLink === 'services' ? 'bg-[#99999933]' : ''}`}>
-                            <div className='text-[0.9rem]'>Services</div>
+                        <div onClick={() => handleMouseEnter('offerings')} className={`md:w-auto w-full flex items-center md:justify-center justify-between cursor-pointer gap-1 py-[5px] md:px-[16px] px-[8px] rounded ${hoveredLink === 'offerings' ? 'bg-[#99999933]' : ''}`}>
+                            <div className='text-[0.9rem]'>Offerings</div>
                             <MdOutlineKeyboardArrowDown className='text-lg' />
                         </div>
                         <div onClick={() => handleMouseEnter('blogs')} className={`md:w-auto w-full flex items-center md:justify-center justify-between cursor-pointer gap-1 py-[5px] md:px-[16px] px-[8px] rounded ${hoveredLink === 'blogs' ? 'bg-[#99999933]' : ''} `}>
@@ -133,18 +132,20 @@ const Header = () => {
                             <MdOutlineKeyboardArrowDown className='text-lg' />
                         </div>
                         <div onClick={() => handleMouseEnter('resources')} className={`md:w-auto w-full flex items-center md:justify-center justify-between cursor-pointer gap-1 py-[5px] md:px-[16px] px-[8px] rounded ${hoveredLink === 'resources' ? 'bg-[#99999933]' : ''} `}>
-                            <div className='text-[0.9rem]' >Resources</div>
+                            <div className='text-[0.9rem]' >Insights</div>
                             <MdOutlineKeyboardArrowDown className='text-lg' />
                         </div>
                     </div>
-                    <div className='md:flex hidden text-sm items-center cursor-pointer justify-center gap-2  font-light tracking-wider w-32 py-[0.3rem] border-[#3f3fc2] text-[#616161] border rounded-full'>
-                        <h2 className='text-[#3f3fc2]'>
-                            Contact
-                        </h2>
-                        <div className=" rotate-45 border h-8 w-8 flex  items-center justify-center rounded-full bg-[#3f3fc2] text-white">
-                            <IoIosArrowRoundUp size='1.3rem' />
+                    <Link href={'/contact'}>
+                        <div className='md:flex hidden text-sm items-center cursor-pointer justify-center gap-2  font-light tracking-wider w-32 py-[0.3rem] border-[#3f3fc2] text-[#616161] border rounded-full'>
+                            <h2 className='text-[#3f3fc2]'>
+                                Contact
+                            </h2>
+                            <div className=" rotate-45 border h-8 w-8 flex  items-center justify-center rounded-full bg-[#3f3fc2] text-white">
+                                <IoIosArrowRoundUp size='1.3rem' />
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

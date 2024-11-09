@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html className='w-screen' lang="en">
       <MyReduxProvider>
-        <body className='w-full'>
+        <body className='w-full' suppressHydrationWarning={true}>
           <ToastContainer />
           <Wrapper>
             {children}

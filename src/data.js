@@ -1,40 +1,40 @@
 
-export const sections = [
+export const posts = [
     {
         "ID": "f7d5f2c0-9a8b-4c26-a846-7f32e2a4f289",
-        "title": "",
+        "title": "Mastering the First Impression: Your intriguing post title goes here",
         "description": "We provIDe efficient and reliable global shipping solutions to ensure your products reach their destination on time.",
-        "iconImage": "FaGlobeEurope"
+        "iconImage": "https://www.fastsourcer.com/wp-content/uploads/2024/04/zipwp-image-8973132.jpeg"
     },
     {
         "ID": "21a6e8e7-87c7-48e4-896b-4fb027a8c89c",
         "title": "Customs Clearance",
         "description": "Our expertise in customs clearance ensures that your shipments comply with all regulations, avoIDing delays and additional costs.",
-        "iconImage": "FaGlobeEurope"
+        "iconImage": "https://www.fastsourcer.com/wp-content/uploads/2024/04/zipwp-image-11679684.jpeg"
     },
     {
         "ID": "dfb6d0f0-7725-4e3e-9a0d-2faa8ae7e2f3",
         "title": "Real-Time Tracking",
         "description": "Stay informed with our real-time tracking system, provIDing you with up-to-date information on the status of your shipments.",
-        "iconImage": "FaGlobeEurope"
+        "iconImage": "https://www.fastsourcer.com/wp-content/uploads/2024/04/zipwp-image-2760241.jpeg"
     },
     {
         "ID": "cee20a42-5f20-413c-8f23-1d6c8b7f56bf",
         "title": "Secure Handling",
         "description": "We prioritize the safety of your products with secure handling and storage throughout the transportation process.",
-        "iconImage": "FaGlobeEurope"
+        "iconImage": "https://cdn.prod.website-files.com/63dc04891de85c192800f4d9/63e0ac344fd49b42faaa4f99_Map-of-the-regions-of-China-p-800.jpg"
     },
     {
         "ID": "b5d8cf5a-2c4e-4e3b-8d0a-9c41821fd5f1",
         "title": "Flexible Solutions",
         "description": "Our flexible shipping solutions are tailored to meet your unique business needs, ensuring the best possible service.",
-        "iconImage": "FaGlobeEurope"
+        "iconImage": "https://cdn.prod.website-files.com/63dc04891de85c192800f4d9/63df5c46d2a0ebaa10ebc059_view-full-warehouse-with-forklift-and-packing-list%20(1)%20(1)-p-800.jpg"
     },
     {
         "ID": "a7fba1e2-dc08-4285-bf6b-303b90b090b8",
         "title": "Customer Support",
         "description": "Our dedicated customer support team is available 24/7 to assist you with any inquiries or issues that may arise.",
-        "iconImage": "FaGlobeEurope"
+        "iconImage": "https://cdn.prod.website-files.com/63dc04891de85c192800f4d9/63dca2439057123c0ab8bf12_china-province-abbreviations-codes-p-800.jpg"
     }
 ];
 
