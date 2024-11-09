@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                     <div className="py-8 lg:py-16 px-4 md:w-[60%] w-full">
                         <h2 className="mb-4 text-5xl tracking-tight font-medium text-center text-gray-900 md:text-start">Get In Touch</h2>
-                        <p className="mb-8 lg:mb-16 font-light text-center md:text-start text-gray-500 dark:text-gray-400 sm:text-xl">All good things start with <b className='text-black'>&quot;hello&quot;</b>. Drop us a line and let's source, design and manufacture something together.</p>
+                        <p className="mb-8 lg:mb-16 font-light text-center md:text-start text-gray-500 dark:text-gray-400 sm:text-xl">All good things start with <b className='text-black'>&quot;hello&quot;</b>. Drop us a line and let&apos;s source, design and manufacture something together.</p>
                         <form action="#" className="space-y-8">
                             <div>
                                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700">Your email*</label>
