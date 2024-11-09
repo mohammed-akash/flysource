@@ -113,14 +113,15 @@ const Header = () => {
                     <RiMenu3Fill />
                 </h1>
                 <div className={`${showMenu ? '' : 'hidden md:flex'}  items-center gap-4`}>
-                    <div ref={menuRef} draggable={showMenu}
+                    <div ref={menuRef}
+                        draggable={showMenu}
                         onDragStart={handleDragStart}
                         onDrag={handleDrag}
                         onMouseUp={handleDragEnd}
                         onTouchStart={handleTouchStart}
                         onTouchMove={handleTouchMove}
                         onTouchEnd={handleTouchEnd}
-                        className={`flex md:items-center items-start text-base tracking-wide md:flex-row flex-col md:shadow-none ${showMenu ? 'absolute top-12 right-9' : ''}  md:top-auto md:right-auto  shadow md:border-none border md:z-auto z-[9999]`}>
+                        className={`flex md:items-center items-start text-base tracking-wide md:flex-row flex-col md:shadow-none md:bg-transparent bg-white  ${showMenu ? 'absolute top-12 right-9' : ''}  md:top-auto md:right-auto  shadow md:border-none border md:z-auto z-[9999]`}>
                         <Link className='text-[0.9rem] py-[5px] md:px-[16px] px-[8px]' href={'/'}>Home</Link>
                         <Link className='text-[0.9rem] py-[5px] md:px-[16px] px-[8px]' href={'/about'}>About</Link>
                         <div onClick={() => handleMouseEnter('offerings')} className={`md:w-auto w-full flex items-center md:justify-center justify-between cursor-pointer gap-1 py-[5px] md:px-[16px] px-[8px] rounded ${hoveredLink === 'offerings' ? 'bg-[#99999933]' : ''}`}>
