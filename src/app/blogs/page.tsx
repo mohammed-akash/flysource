@@ -1,10 +1,11 @@
 import React from 'react'
+import Wrapper from '@/components/Layout/Wrapper'
 
 const page = () => {
     return (
-        <div>
+        <Wrapper>
             Main Blog Page
-        </div>
+        </Wrapper>
     )
 }
 

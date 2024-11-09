@@ -1,11 +1,14 @@
+import Wrapper from '@/components/Layout/Wrapper';
 import React from 'react'
 
 const page = ({ params }: any) => {
     let id = params.id;
     return (
-        <div className='h-[70vh] flex items-center justify-center'>
-            {id}
-        </div>
+        <Wrapper>
+            <div className='h-[70vh] flex items-center justify-center'>
+                {id}
+            </div>
+        </Wrapper>
     )
 }
 

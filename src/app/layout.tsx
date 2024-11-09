@@ -20,9 +20,7 @@ export default function RootLayout({
       <MyReduxProvider>
         <body className='w-full' suppressHydrationWarning={true}>
           <ToastContainer />
-          <Wrapper>
             {children}
-          </Wrapper>
         </body>
       </MyReduxProvider>
     </html>

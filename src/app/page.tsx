@@ -1,8 +1,11 @@
 import React from 'react'
 import Home from '@/components/Home/Home'
+import Wrapper from '@/components/Layout/Wrapper'
 const page = () => {
   return (
-    <Home />
+    <Wrapper>
+      <Home />
+    </Wrapper>
   )
 }
 

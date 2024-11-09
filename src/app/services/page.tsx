@@ -1,10 +1,11 @@
+import Wrapper from '@/components/Layout/Wrapper'
 import React from 'react'
 
 const page = () => {
     return (
-        <div>
+        <Wrapper>
             Services
-        </div>
+        </Wrapper>
     )
 }
 

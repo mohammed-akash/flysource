@@ -1,9 +1,12 @@
 'use client'
 import React from 'react'
 import About from '@/components/About/About';
+import Wrapper from '@/components/Layout/Wrapper';
 const page = () => {
     return (
-        <About />
+        <Wrapper>
+            <About />
+        </Wrapper>
     )
 }
 

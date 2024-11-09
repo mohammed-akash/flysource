@@ -1,6 +1,6 @@
 import { connect } from "@/dbConfig/dbConfig";
 import User from "@/models/userModel";
-import commonHelper from '@/helpers/commonHelper'
+import commonHelper from '@/ServerHelpers/commonHelper'
 import { NextRequest, NextResponse } from "next/server";
 import template from "@/DocumentTemplate/template";
 connect()
@@ -34,9 +34,9 @@ export async function POST(request: NextRequest) {
         }
         if (user.otp === otp) {
             user.isverified = true;
-            user.otp= null;
+            user.otp = null;
             await user.save();
-            await commonHelper.sendMail(user.email, template.EMAIL_VERIFIED_SUCCESS_SUBJECT(), template.EMAIL_VERIFIED_SUCCESS_BODY(user) );
+            await commonHelper.sendMail(user.email, template.EMAIL_VERIFIED_SUCCESS_SUBJECT(), template.EMAIL_VERIFIED_SUCCESS_BODY(user));
             return NextResponse.json({
                 message: 'Email verified successfully',
                 status: 200

@@ -1,6 +1,6 @@
 import { connect } from "@/dbConfig/dbConfig";
 import User from "@/models/userModel";
-import commonHelper from '@/helpers/commonHelper'
+import commonHelper from '@/ServerHelpers/commonHelper'
 import { NextRequest, NextResponse } from "next/server";
 import template from "@/DocumentTemplate/template";
 connect()
@@ -21,10 +21,10 @@ export async function POST(request: NextRequest) {
         }
         let keys = Object.keys(reqBody);
         for (let i = 0; i < keys.length; i++) {
-          if (keys[i] !== 'isAdmin' && keys[i] !== 'password' && keys[i] !== 'email' ) {
-            user[keys[i]] = reqBody[keys[i]];
-          }
-        }      
+            if (keys[i] !== 'isAdmin' && keys[i] !== 'password' && keys[i] !== 'email') {
+                user[keys[i]] = reqBody[keys[i]];
+            }
+        }
         await user.save();
         return NextResponse.json({
             message: 'User Updated successfully',
