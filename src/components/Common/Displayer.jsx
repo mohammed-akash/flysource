@@ -42,7 +42,7 @@ const Displayer = ({ data }) => {
                     <Slider {...settings}>
                         {data.map((testimonial, index) => (
                             <div key={index} padding='0.2rem' cursor='pointer' overflow='hidden' borderRadius='0.5rem'>
-                                <img borderRadius='0.3rem' width='8rem' objectFit='cover' src={testimonial.imgSrc} />
+                                <img borderRadius='0.3rem' width='8rem' objectFit='cover' src={testimonial.imgSrc} alt='' />
                             </div>
                         ))}
                     </Slider>

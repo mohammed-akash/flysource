@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosArrowRoundUp } from 'react-icons/io'
-import Geography from '@/components/Common/Geography.jsx'
+const Geography = React.lazy(() => import('@/components/Common/Geography.jsx'));
 const About = () => {
     return (
         <div className='my-10'>
@@ -19,11 +19,11 @@ const About = () => {
                         <button className='md:w-auto w-full uppercase tracking-wider mt-4 text-xs border py-[0.5rem] px-7 border-[#3f3fc2] text-[#3f3fc2] rounded '>Learn More </button>
                     </div>
                 </div>
-                <img className=' md:w-[90%] w-full h-[60vh] rounded object-fit' src="/logistics.jpg" alt="" />
+                <img className=' md:w-[90%] w-full h-[60vh] rounded object-fit' src="/logistics.jpg" alt="logistics" />
             </div>
             <div className=" relative flex items-center justify-around h-[50vh] bg-[#3f3fc2] mt-10 md:flex-row flex-col gap-8 md:gap-2 shadow-sm overflow-hidden">
                 <div className="h-[6rem] w-[4rem] rotate-[75deg] lg:h-[20rem] lg:w-[20rem] absolute top-[-10%] right-[-10%]">
-                    <img className='rounded-full' src="/dotted-pattern.png" alt='' />
+                    <img className='rounded-full' src="/dotted-pattern.png" alt='pattern-dotted' />
                 </div>
                 <div className="w-full flex flex-col items-center text-white">
                     <h2 className='text-4xl font-medium text-center'>Get Better Quality And Pricing</h2>

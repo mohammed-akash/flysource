@@ -1,12 +1,12 @@
 'use client'
 import React from 'react'
-import WhyWe from '@/components/Home/Helper/WhyWe'
 import Landing from '@/components/Home/Helper/Landing';
-import TrustedBy from '@/components/Home/Helper/TrustedBy'
-import Geography from '../Common/Geography';
-import Advertise from '@/components/Home/Helper/Advertise'
-import SourcedProducts from '@/components/Home/Helper/SourcedProducts'
-import ContactForm from '@/components/Contact/Helper/ContactForm';
+const ContactForm = React.lazy(() => import('@/components/Contact/Helper/ContactForm'))
+const SourcedProducts = React.lazy(() => import('@/components/Home/Helper/SourcedProducts'))
+const Advertise = React.lazy(() => import('@/components/Home/Helper/Advertise'))
+const Geography = React.lazy(() => import('@/components/Common/Geography'))
+const TrustedBy = React.lazy(() => import('@/components/Home/Helper/TrustedBy'))
+const WhyWe = React.lazy(() => import('@/components/Home/Helper/WhyWe'))
 const page = () => {
     return (
         <div className='w-full flex items-center justify-center flex-col'>

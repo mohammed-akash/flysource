@@ -1,8 +1,5 @@
 'use client'
 import React from 'react'
-import { MdOutlineLightMode } from "react-icons/md";
-import { BsSourceforge } from "react-icons/bs";
-import { FaNimblr } from "react-icons/fa";
 import { IoIosArrowRoundUp } from 'react-icons/io';
 import { motion } from 'framer-motion';
 
@@ -12,23 +9,10 @@ const Landing = () => {
         <div className="w-full relative md:flex-row flex-col flex items-center justify-center">
             <div className="bg-[#80007e83] blur-[90px] h-[6rem] w-[4rem] lg:h-[12rem] lg:w-[8rem] absolute top-[20%] left-[40%]" />
             <div className=" md:absolute top-[10%] left-[10%]">
-                <img className='h-28 ' src="/plain.png" alt="" />
+                <img className='h-28 ' src="/plain.png" alt="aeroplain" />
             </div>
             <div className="flex flex-col md:w-[70%] w-full items-center gap-3 mt-8">
                 <div className="relative w-full flex flex-col md:items-start items-center md:gap-8 sm:gap-5 gap-4 ">
-                    <div className="flex items-center gap-4 ">
-                        {/* <div className='border h-10 w-10 rounded-full flex items-center justify-center bg-white shadow'>
-                            <MdOutlineLightMode size='1.6rem' />
-                        </div>
-                        <div className='border h-10 w-10 rounded-full flex items-center justify-center bg-white shadow'>
-                            <BsSourceforge size='1.6rem' />
-                        </div>
-                        <div className='border h-10 w-10 rounded-full flex items-center justify-center bg-white shadow'>
-                            <FaNimblr size='1.6rem' />
-                        </div> */}
-
-
-                    </div>
                     <div className="w-full flex flex-col md:gap-3 gap-3 mt-2 items-start">
                         <h2 className='w-full mb-2 md:text-start text-center'> EASY & FAST SOURCING</h2>
                         <h1 className='w-full font-medium md:text-4xl text-2xl uppercase md:text-start text-center z-10'>Searching For Markets</h1>

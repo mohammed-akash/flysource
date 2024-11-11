@@ -97,7 +97,7 @@ const Header = () => {
             <div className="flex items-center justify-start gap-4">
                 <Link href={'/'}>
                     <div className="flex items-center gap-2">
-                        <img src="/site-logo.png" className='h-[3.5rem]' alt="" />
+                        <img src="/site-logo.png" className='h-[3.5rem]' alt="site-logo" />
                         <div className="flex flex-col -space-y-1">
                             <h1 className='text-lg m-0 font-normal tracking-wider uppercase'>Fast</h1>
                             <h1 className='text-xl m-0 font-normal tracking-wider uppercase'>Sourcer</h1>

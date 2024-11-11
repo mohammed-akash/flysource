@@ -78,7 +78,7 @@ const SignIn = () => {
                 <h5 className="absolute top-8 left-8 z-10 font-normal tracking-wide text-lg">
                     <Link href={'/'}>
                         <div className="flex items-center gap-2">
-                            <img src="/site-logo.png" className='h-[3rem] md:h-[3.5rem]' alt="" />
+                            <img src="/site-logo.png" className='h-[3rem] md:h-[3.5rem]' alt="site-logo" />
                             <div className="flex flex-col -space-y-1 md:text-white">
                                 <h1 className='md:text-lg text-base m-0 font-normal tracking-wider uppercase'>Fast</h1>
                                 <h1 className='md:text-xl text-lg m-0 font-normal tracking-wider uppercase'>Sourcer</h1>

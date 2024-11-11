@@ -20,7 +20,7 @@ const CustomScroller = ({ data }) => {
                         className="flex flex-col md:min-w-[450px] min-w-[300px] border rounded-md p-4 bg-[#f4f8ff92] shadow"
                         key={item?.id}
                     >
-                        <img className="h-20 w-20 rounded-md" src={item?.imgSrc} alt="" />
+                        <img className="h-20 w-20 rounded-md" src={item?.imgSrc} alt={item?.title} />
                         <h2 className="mt-4 text-xl font-medium">{item?.title}</h2>
                         <p className="font-extralight mt-3">{item?.desc}</p>
                     </div>

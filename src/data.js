@@ -37,33 +37,33 @@ export const posts = [
         "iconImage": "https://cdn.prod.website-files.com/63dc04891de85c192800f4d9/63dca2439057123c0ab8bf12_china-province-abbreviations-codes-p-800.jpg"
     }
 ];
-
 export const socialMedia = [
     {
         "ID": "1d5fbc15-3fd2-4a7c-b465-8e5f69d0fe8f",
         "name": "Facebook",
-        "description": "Connect with friends, family, and other people you know. Share photos and vIDeos, send messages, and get updates.",
-        "iconImage": "https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Facebook_svg-1024.png"
+        "iconImage": "https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Facebook_svg-1024.png",
+        "link": "https://www.facebook.com/fastsourcer"
     },
     {
         "ID": "89a0bb5b-4f0e-4e19-a855-4d3b867ee6ea",
         "name": "Instagram",
-        "description": "Create and share your photos, stories, and vIDeos with friends and followers. Discover content from around the world.",
-        "iconImage": "https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Instagram_svg-512.png"
+        "iconImage": "https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Instagram_svg-512.png",
+        "link": "https://www.instagram.com/fastsourcer"
     },
     {
         "ID": "fdb5f8ae-78f6-4f9d-882b-2e3a1b6c27fa",
         "name": "Twitter",
-        "description": "See what's happening in the world right now. Join the conversation, express yourself, and discover the latest news and trends.",
-        "iconImage": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-contained-1024.png"
+        "iconImage": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-contained-1024.png",
+        "link": "https://www.twitter.com/fastsourcer"
     },
     {
         "ID": "a2c89f82-3c42-4e3d-b3f5-2a7298e85963",
         "name": "YouTube",
-        "description": "Enjoy vIDeos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-        "iconImage": "https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Youtube3_svg-1024.png"
+        "iconImage": "https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Youtube3_svg-1024.png",
+        "link": "https://www.youtube.com/fastsourcer"
     }
 ];
+
 
 export const faq = [
     {
