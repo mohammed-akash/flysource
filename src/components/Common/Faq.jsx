@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react'
 import { FiPlus } from "react-icons/fi";
 const Faq = ({ title, value, index }) => {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
     return (
         <div className='my-10 transition-all'>
             <div className="flex sm:items-center items-start gap-3">

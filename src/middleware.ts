@@ -5,25 +5,14 @@ export function middleware(request: NextRequest) {
     const isPublicPath = ['/signin', '/signup'].includes(path); // Public routes
     const isProtectedPath = ['/admin'].includes(path); // Protected routes
     const token = request.cookies.get('accessToken')?.value || '';
-
-    if (isPublicPath && token) {
-        // If the user has a token and is trying to access a public page, redirect to home
-        return NextResponse.redirect(new URL('/', request.nextUrl));
-    }
-
-    if (isProtectedPath && !token) {
-        // If the user doesn't have a token and is trying to access a protected page, redirect to login
-        return NextResponse.redirect(new URL('/signin', request.nextUrl));
-    }
-
-    // If neither condition is met, continue as usual
+    if (isPublicPath && token) return NextResponse.redirect(new URL('/', request.nextUrl));
+    if (isProtectedPath && !token) return NextResponse.redirect(new URL('/signin', request.nextUrl));
     return NextResponse.next();
 }
-
 export const config = {
     matcher: [
-        '/admin',  // This is a protected path
-        '/signin',    // This is a public path
-        '/signup',   // This is a public path
-    ],
+        '/admin',
+        '/signin',
+        '/signup'
+    ]
 };

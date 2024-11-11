@@ -103,5 +103,89 @@ export const faq = [
     }
 ]
 
-
-
+export const viableProducts = [
+    {
+        "id": "fb13e45f-0a13-4657-a20e-ca1afa119110",
+        "title": "Furniture",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Furniture-1.jpg",
+        "desc": "Discover a wide range of furniture options for gardens, living rooms, and more, sourced from multiple suppliers in China. We help balance cost and quality, ensuring profitability and efficiency through expert sourcing strategies."
+    },
+    {
+        "id": "377f0c92-8dfd-42b6-af49-fa17e97e02b3",
+        "title": "Home Decor Products",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Home-Decor-Products-1.jpg",
+        "desc": "Simplify the process of sourcing premium home décor items with our end-to-end services, from sample orders to final delivery. We ensure quick turnaround times and competitive pricing for your home décor needs."
+    },
+    {
+        "id": "37205f9d-8986-4088-bd3a-e64635d6d369",
+        "title": "Clothes & Fabric",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Clothes-Fabric-1.jpg",
+        "desc": "Streamline your clothing and fabric procurement with our reliable sourcing solutions. We ensure timely delivery and cost-effectiveness, meeting your business needs efficiently."
+    },
+    {
+        "id": "6aa26fe4-1a92-46a6-87ca-633216727c73",
+        "title": "Underwear",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Underwear-1.jpg",
+        "desc": "Leverage our expertise in sourcing underwear and lingerie from certified manufacturers. We handle design adjustments and ensure quality standards, minimizing potential risks in the supply chain."
+    },
+    {
+        "id": "67e42ef1-9676-4f58-9152-a34a6050a1a9",
+        "title": "Watches",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Watches-1.jpg",
+        "desc": "Access a vast network of Chinese watch manufacturers for both ready-made and customized designs. We assist in sourcing and developing watches tailored to your specifications."
+    },
+    {
+        "id": "18dbae03-de04-4a46-94f7-fc8808e74f32",
+        "title": "Toys",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Toys-1.jpg",
+        "desc": "Partner with us to source toys and board games from leading manufacturers. We help optimize production costs and reduce risks, ensuring a smooth sourcing process."
+    },
+    {
+        "id": "909add3d-1ae1-4d0f-b358-5852eb44cfc6",
+        "title": "Jewelry",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/IMG_22.jpg",
+        "desc": "Easily find and compare jewelry options from a wide network of wholesalers and manufacturers. We simplify the process of importing high-quality jewelry at competitive rates."
+    },
+    {
+        "id": "5fcc4e6a-853c-4b7e-afa7-691c9562b329",
+        "title": "Handbags",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Handbags-1.jpg",
+        "desc": "Source high-quality handbags directly from manufacturers with our assistance. We offer storage solutions and quality inspections to ensure the best results for your business."
+    },
+    {
+        "id": "17fca5a1-c4ba-48eb-bb33-e908f5c96fee",
+        "title": "Plastic Products",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Plastic-Products-1.jpg",
+        "desc": "Procure a variety of plastic products suited to your industry needs. We focus on timely delivery and quality control to keep your operations running smoothly."
+    },
+    {
+        "id": "d0320163-9e66-4238-944f-88a4026bde99",
+        "title": "Mobile Accessories",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Mobile-Accessories-1.jpg",
+        "desc": "Get end-to-end sourcing services for mobile accessories, ensuring cost efficiency and streamlined importing processes tailored to your business goals."
+    },
+    {
+        "id": "577c0389-5aa5-40e8-94b2-81099652c682",
+        "title": "Pet Supplies",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Pet-Supplies-1.jpg",
+        "desc": "As demand for pet products rises, we help you capitalize on the opportunity by sourcing quality pet supplies from reliable manufacturers in China."
+    },
+    {
+        "id": "d574f159-c582-453f-a874-f1432fd9437c",
+        "title": "Electronics",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Electronics-1.jpg",
+        "desc": "Our team ensures access to top-grade electronic components by thoroughly reviewing your requirements and managing the sourcing process from start to finish."
+    },
+    {
+        "id": "a57ca8cc-0f4d-4dca-8c3f-51c83733026e",
+        "title": "Car Accessories",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Car-Accessories-1.jpg",
+        "desc": "We offer comprehensive solutions for sourcing car accessories, including supply chain and quality management, to simplify the process for OEM and ODM projects."
+    },
+    {
+        "id": "6b76c6f5-4d92-41f7-a13a-2cc88bf3ae37",
+        "title": "Lights",
+        "imgSrc": "https://www.matchsourcing.com/wp-content/uploads/2021/09/Lights-1.jpg",
+        "desc": "Facilitate the sourcing of lighting products with our expertise. From manufacturing to delivery, we ensure efficiency and cost savings throughout the process."
+    }
+]

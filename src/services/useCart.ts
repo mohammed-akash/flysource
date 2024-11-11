@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { add, remove } from '../Redux/CartSlice'; // Adjust the import to your slice location
+import { add, remove } from '../Redux/CartSlice.js'; // Adjust the import to your slice location
 import { toast } from 'react-toastify';
 const useCart = () => {
     const dispatch = useDispatch();
