@@ -44,21 +44,21 @@ const ContactForm = () => {
                     </div>
                     <div className="py-8 lg:py-16 px-4 md:w-[60%] w-full">
                         <h2 className="mb-4 text-5xl tracking-tight font-medium text-center text-gray-900 md:text-start">Get In Touch</h2>
-                        <p className="mb-8 lg:mb-16 font-light text-center md:text-start text-gray-500 dark:text-gray-400 sm:text-xl">All good things start with <b className='text-black'>&quot;hello&quot;</b>. Drop us a line and let&apos;s source, design and manufacture something together.</p>
+                        <p className="mb-8 lg:mb-16 font-light text-center md:text-start text-gray-500 dark:text-gray-400 sm:text-xl">Let&apos;s get in touch and bring your ideas to life together, we can source, design, and manufacture exactly what you need.</p>
                         <form action="#" className="space-y-8">
                             <div>
                                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700">Your email*</label>
-                                <input type="email" id="email" className="shadow-sm bg-gray-50 border border-[#000] text-sm rounded-lg w-full p-2.5 " placeholder="name@flowbite.com" required />
+                                <input type="email" id="email" className="shadow-sm bg-gray-50 border border-[#999999] text-sm rounded-lg w-full p-2.5 " placeholder="name@flowbite.com" required />
                             </div>
                             <div>
                                 <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700">Subject*</label>
-                                <input type="text" id="subject" className="block p-3 w-full text-sm rounded-lg border border-[#000] shadow-sm  text-black " placeholder="Let us know how we can help you" required />
+                                <input type="text" id="subject" className="block p-3 w-full text-sm rounded-lg border border-[#999999] shadow-sm  text-black " placeholder="Let us know how we can help you" required />
                             </div>
                             <div className="sm:col-span-2">
                                 <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700">Your message*</label>
-                                <textarea id="message" rows="6" className="p-2.5 w-full text-sm rounded-lg shadow-sm border border-[#000] " placeholder="Leave a comment..." />
+                                <textarea id="message" rows="6" className="p-2.5 w-full text-sm rounded-lg shadow-sm border border-[#999999] " placeholder="Leave a comment..." />
                             </div>
-                            <button type='submit' className='md:w-auto w-full uppercase tracking-wider mt-4 border py-[0.4rem] text-sm px-7 border-[#000] text-[#000] rounded '>Submit</button>
+                            <button type='submit' className='md:w-auto w-full uppercase tracking-wider mt-4 border py-[0.4rem] text-sm px-7 border-[#999999] text-[#000] rounded '>Submit</button>
                         </form>
                     </div>
                 </section>

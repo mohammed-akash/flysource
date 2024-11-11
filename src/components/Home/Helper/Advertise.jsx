@@ -9,8 +9,8 @@ const Advertise = () => {
                     <h1 className='md:text-5xl text-3xl font-medium block'>Got a product idea in mind? <br className='md:block hidden' /> Reach out for a free quote</h1>
                     <p className=''>No upfront costs, no obligations — <br className='md:block hidden' /> just a free quote and answers to any questions that you might have.</p>
                     <div className=' md:w-auto w-full flex  md:gap-4 gap-2 items-center flex-row  md:mt-5 mt-3'>
-                        <button className='md:w-auto w-full flex uppercase tracking-wider border md:py-[0.4rem] py-[0.4rem] text-sm px-5 bg-[#3f3fc2] text-white rounded gap-1 items-center justify-center'>Learn More <IoIosArrowRoundUp className='md:text-2xl text-xl rotate-90' /></button>
-                        <button className='md:w-auto w-full uppercase tracking-wider border md:py-[0.4rem] text-sm px-5 border-[#3f3fc2] text-[#3f3fc2] rounded '>Get a Quote </button>
+                        <button className='md:w-auto w-full flex uppercase tracking-wider border md:py-[0.4rem] py-[0.5rem] text-sm px-5 bg-[#3f3fc2] text-white rounded gap-1 items-center justify-center'>Learn More <IoIosArrowRoundUp className='md:text-2xl text-xl rotate-90 md:block hidden' /></button>
+                        <button className='md:w-auto w-full uppercase tracking-wider border md:py-[0.4rem] py-[0.5rem] text-sm px-5 border-[#3f3fc2] text-[#3f3fc2] rounded '>Get a Quote </button>
                     </div>
                 </div>
                 <div className="md:w-1/2 w-full">
